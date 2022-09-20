@@ -1,18 +1,24 @@
 package strukturdata;
 
 public class Data {
-    public String ID;
-    public String Nama;
 
-    public Data Next;
-    public Data Prev;
+    // Property atau variabel Global
+    public String id;
+    public String nama;
 
-    public Data(String ID, String Nama) {
-        this.ID = ID;
-        this.Nama = Nama;
+    public Data next;
+    public Data prev;
 
-        Next = null;
-        Prev = null;
+    public Data(String id, String nama) { // variabel di dalam kurung disebut argumen atau parameter dan merupakan
+                                          // variabel lokal
+
+        // Keyword 'this' untuk membedakan mana variabel global dan mana yang lokal
+        this.id = id;
+        this.nama = nama;
+
+        // nilai awal
+        next = null;
+        prev = null;
 
     }
 

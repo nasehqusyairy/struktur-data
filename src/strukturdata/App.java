@@ -8,22 +8,22 @@ public class App {
 
     Stack Qu = new Stack();
 
-    Qu.Push(dt1);
-    Qu.Push(dt2);
-    Qu.Push(dt3);
+    Qu.push(dt1);
+    Qu.push(dt2);
+    Qu.push(dt3);
 
     System.out.println(Qu);
 
-    Data dt01 = Qu.Pop();
+    Data dt01 = Qu.pop();
     System.out.println(Qu);
 
-    Data dt02 = Qu.Pop();
+    Data dt02 = Qu.pop();
     System.out.println(Qu);
 
-    Data dt03 = Qu.Pop();
+    Data dt03 = Qu.pop();
     System.out.println(Qu);
 
-    Data dt04 = Qu.Pop();
+    Data dt04 = Qu.pop();
     System.out.println(Qu);
   }
 }
