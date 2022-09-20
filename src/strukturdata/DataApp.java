@@ -25,6 +25,5 @@ public class DataApp {
 
     Data dt04 = Qu.Pop();
     System.out.println(Qu);
-
   }
 }
