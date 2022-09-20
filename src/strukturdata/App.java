@@ -1,6 +1,6 @@
 package strukturdata;
 
-public class DataApp {
+public class App {
   public static void main(String[] args) {
     Data dt1 = new Data("01", "Budi");
     Data dt2 = new Data("02", "Ali");
