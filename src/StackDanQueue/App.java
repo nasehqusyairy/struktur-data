@@ -1,4 +1,4 @@
-package strukturdata;
+package StackDanQueue;
 
 public class App {
   public static void main(String[] args) {
@@ -14,16 +14,20 @@ public class App {
 
     System.out.println(Qu);
 
-    Data dt01 = Qu.pop();
+    // Data dt01 =
+    Qu.pop();
     System.out.println(Qu);
 
-    Data dt02 = Qu.pop();
+    // Data dt02 =
+    Qu.pop();
     System.out.println(Qu);
 
-    Data dt03 = Qu.pop();
+    // Data dt03 =
+    Qu.pop();
     System.out.println(Qu);
 
-    Data dt04 = Qu.pop();
+    // Data dt04 =
+    Qu.pop();
     System.out.println(Qu);
   }
 }
