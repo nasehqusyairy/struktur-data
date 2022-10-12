@@ -1,4 +1,4 @@
-package StackDanQueue;
+package stackDanQueue;
 
 // class untuk menampung data dengan konsep FILO, dimana data yang masuk pertama, akan keluar paling akhir
 // dalam konsep ini, data yang masuk paling akhir akan ditandai sebagai head. Maka setiap kali ada data baru yang masuk, head akan bergeser

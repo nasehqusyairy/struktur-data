@@ -1,4 +1,4 @@
-package StackDanQueue;
+package stackDanQueue;
 
 public class Data {
 
